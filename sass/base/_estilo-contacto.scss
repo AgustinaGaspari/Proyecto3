@@ -1,0 +1,51 @@
+/*estilos main contacto.html*/
+
+.contact{
+    background-image: url(../img/fotoFondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    form{
+        
+        .formulario{
+            font-family: $fontfamily-titles;
+            font-size: $fontsize-text;
+            color: #FFFFFF;
+            width: 50%;
+            margin-right: 20px;
+            legend{
+                font-size: $fontsize-titles;
+                font-weight: bold;
+                letter-spacing: 2px;
+                margin-top: 10px;
+                text-align: center;
+            }
+            button{
+                background-color: #9da29f;
+                margin: 20px;
+                
+                .btn{
+                    color:white;
+                }
+            }
+
+        }
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        
+        p{
+            color: #FFFFFF;
+            text-align: center;
+            font-family: $fontfamily-text;
+            font-size: $fontsize-text;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            ;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+/*Estilos main quienessomos.html*/
+
+.pensar{
+    background-image: url(../img/fondo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "vacio frase";
+    justify-items: center;
+    align-items: center;
+    div{
+        grid-area: frase;
+        width: 60%;
+            p{                
+              font-size:($fontsize-text)+2;
+              font-family: $fontfamily-text;
+              letter-spacing: 2px;
+            }
+    }
+}
+.futuro{
+    background-image: url(../img/fondo5.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "frase vacio";
+    justify-items: center;
+    align-items: center;
+    div{
+        grid-area: frase;
+        width:60%;
+            p{                
+              font-size:($fontsize-text)+2;
+              font-family: $fontfamily-text;
+              letter-spacing: 2px;
+            }
+    }
+}
+.lutherKing{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    img{
+        width: 90%;
+    }
+}
+.mision{
+    
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    p{
+        display: block;
+        font-size:($fontsize-text)+2;
+        font-family: $fontfamily-text;
+        letter-spacing: 2px;
+        width: 50%;
+        text-align: center;
+    }
+    
+}

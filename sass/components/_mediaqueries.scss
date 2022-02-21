@@ -1,0 +1,192 @@
+
+@media screen and (max-width:768px) and (min-width:480px){
+    /*Mediaqueries Header*/
+    #up{
+        .div1{
+            .div2{
+                a{
+                   .imgCha{
+                        width: 20%;
+                }
+                }
+            }
+            .div3{
+                .navegacion{
+                    .menu{
+                       li{
+                          a{
+                            font-size: $fontsize-titlesQueries;
+                           }
+                         
+                            
+                        }
+                    }
+                }
+            }  
+        }
+        .div4{
+            .tituloPrincipal{
+               font-size:$fontsize-titlesQueries;
+            }
+        }
+    }
+    /*Mediaqueries footer*/
+    footer{
+        .sectFoot{
+            .LogoCha{
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+            .redes{
+                div{
+                    margin:2px;
+                }
+            }
+        }
+    }
+    /*Mediaqueries Home*/
+    .mainHome{
+        div{
+            section{
+                height: 400px;
+            }
+            .centerHome{
+                height: 600px;
+                .CHA{
+                    width: 25%;
+                    height: 30%;
+                }
+            }
+            .Tesoro{
+                background-image: none;
+                background-color: #FFFFFF;
+                grid-template-columns: 100%;
+                grid-template-rows: 100%;
+                grid-template-areas: "fraseTesoro";
+                min-height: 300px;
+                div{
+                    p{
+                        font-size:($fontsize-text)-5 ;
+                    }
+                }
+            }
+            .rsssg{
+                display: flex;
+                flex-direction: column;
+                height: 325px;
+                justify-content: space-between;
+                
+            }
+        }
+    }
+    /*Mediaqueries Productos*/
+    .mainProducts{
+        .P{
+            display: grid;
+            grid-template-areas:"img1" 
+                                "img2"
+                                "img3" 
+                                "img4"
+                                "img5" 
+                                "img6"
+                                "img7" 
+                                "img8"
+                                "img9" ;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            div{
+                .rinonera{
+                    grid-area: "img1";
+                }
+                .cartera{
+                    grid-area: "img2";
+                }
+                .rinonera4{
+                    grid-area: "img3";
+                }
+                .mochila{
+                    grid-area: "img4";
+                }
+                .bandolera{
+                    grid-area: "img5";
+                }
+                .billeteraGrande{
+                    grid-area: "img6";
+                }
+                .billetera{
+                    grid-area: "img7";
+                }
+                .billeteraChica{
+                    grid-area: "img8";
+                }
+                .tabaquera{
+                    grid-area: "img9";
+                }
+            }
+        }
+    }
+    /*Mediaqueries Quienes somos*/
+    .pensar{
+        background-image:none;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-template-areas: "frase";
+        min-height: 300px;
+        div{
+            p{
+                font-size:$fontsize-text;
+            }
+        }
+    }
+    .futuro{
+        background-image: url(../img/fondo4.png);
+        background-size: cover;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "vacio" 
+                             "frase";
+        div{   
+            p{
+                display: none;
+            }
+        }
+    }
+    .lutherKing{
+        img{
+            width:100%;
+        }
+    }
+    .mision{
+        height: 300px;
+        p{
+            font-size:$fontsize-text;
+            width: 90%;
+        }
+    }
+    /*Mediaqueries Contacto*/
+    .contact{
+        form{
+            .formulario{
+                font-size:($fontsize-titlesQueries) -10;
+                legend{
+                    font-size:$fontsize-titlesQueries;
+                }
+                button{
+                    margin:5px;
+                }
+                
+            }
+        }
+        div{
+            p{
+                font-size:$fontsize-titlesQueries;
+                font-weight: normal;   
+            }
+        }
+    }
+}
+
+
+
+
+

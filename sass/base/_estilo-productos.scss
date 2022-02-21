@@ -1,0 +1,71 @@
+/*estilos main Productos.html*/
+
+.mainProducts{
+    div{
+        .fondoP{
+            width: 100%;
+        }
+    }
+    .P{
+        display: grid;
+        grid-template-areas: "img1 img2 img3"
+                             "img4 img5 img6"
+                             "img7 img8 img9" ;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        align-items:center;
+        justify-items: center;
+        div{
+            width:340px;
+            height:340px;
+            margin:5px;
+            .rinonera{
+                grid-area: "img1";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .cartera{
+                grid-area: "img2";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .rinonera4{
+                grid-area: "img3";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .mochila{
+                grid-area: "img4";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .bandolera{
+                grid-area: "img5";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .billeteraGrande{
+                grid-area: "img6";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .billetera{
+                grid-area: "img7";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .billeteraChica{
+                grid-area: "img8";
+                width: $widthProductos;
+                @include Productos;
+            }
+            .tabaquera{
+                grid-area: "img9";
+                width: $widthProductos;
+                @include Productos;
+            }
+        }
+    }
+    
+}
