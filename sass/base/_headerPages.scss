@@ -31,23 +31,7 @@
                             text-decoration: none;
                             @extend %titulosNav;
                         }
-                        .subMenu{
-                            position: absolute;
-                            @extend %titulosNav;
-                            display: none;
-                            &:hover{
-                                display: block;
-                            }        
-                            
-                            li{
-                                
-                                a{
-                                   display: block;
-                                   text-align: left;
-                                   text-decoration: underline;
-                                }
-                            }
-                        }
+                        
                     }
                     
                 }

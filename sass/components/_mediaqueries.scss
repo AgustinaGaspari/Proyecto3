@@ -11,10 +11,12 @@
                 }
             }
             .div3{
-                .navegacion{
+                .navegacion{   
                     .menu{
                        li{
                           a{
+                            padding:2px;
+                            margin: 5px;
                             font-size: $fontsize-titlesQueries;
                            }
                          
@@ -26,7 +28,7 @@
         }
         .div4{
             .tituloPrincipal{
-               font-size:$fontsize-titlesQueries;
+               font-size:($fontsize-titlesQueries)+5;
             }
         }
     }
@@ -35,7 +37,6 @@
         .sectFoot{
             .LogoCha{
                 margin-left: 10px;
-                margin-top: 5px;
             }
             .redes{
                 div{
@@ -66,7 +67,8 @@
                 min-height: 300px;
                 div{
                     p{
-                        font-size:($fontsize-text)-5 ;
+                        font-size:($fontsize-titlesQueries) +2 ;
+                        text-align: center;
                     }
                 }
             }
@@ -75,7 +77,9 @@
                 flex-direction: column;
                 height: 325px;
                 justify-content: space-between;
-                
+                img{
+                    width: 150px;
+                }
             }
         }
     }
@@ -131,23 +135,24 @@
         grid-template-columns: 100%;
         grid-template-rows: 100%;
         grid-template-areas: "frase";
-        min-height: 300px;
+        min-height: 150px;
         div{
             p{
-                font-size:$fontsize-text;
+                font-size:($fontsize-titlesQueries) +2 ;
+                text-align: center;
             }
         }
     }
     .futuro{
         background-image: url(../img/fondo4.png);
-        background-size: cover;
+        background-size:cover;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
         grid-template-areas: "vacio" 
                              "frase";
         div{   
             p{
-                display: none;
+                display: none;    
             }
         }
     }
@@ -157,9 +162,9 @@
         }
     }
     .mision{
-        height: 300px;
+        height: 150px;
         p{
-            font-size:$fontsize-text;
+            font-size: ($fontsize-titlesQueries) +2 ;
             width: 90%;
         }
     }
@@ -167,20 +172,32 @@
     .contact{
         form{
             .formulario{
-                font-size:($fontsize-titlesQueries) -10;
+                font-size: ($fontsize-titlesQueries)+2;
+                
                 legend{
-                    font-size:$fontsize-titlesQueries;
+                    font-size:($fontsize-titlesQueries)+2;
+                    font-weight: normal;  
+                }
+                div{
+                    input{
+                        margin:5px;
+                        height: 30px;
+                        font-size: 10px;
+                    }
                 }
                 button{
                     margin:5px;
+                    width: 60px;
+                    color: #FFFFFF;
                 }
                 
             }
         }
         div{
             p{
+                margin-top: 20px;
                 font-size:$fontsize-titlesQueries;
-                font-weight: normal;   
+                width: 55%;  
             }
         }
     }
